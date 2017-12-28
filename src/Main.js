@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {
     Route,
     NavLink,
-    HashRouter
+    BrowserRouter
 } from "react-router-dom";
 import Home from "./Home";
 import Experience from "./Experience";
@@ -12,7 +12,7 @@ import Links from "./Links";
 class Main extends Component {
     render() {
         return (
-            <HashRouter>
+            <BrowserRouter>
             <div>
                 <h1 className="contentHeader">Jeremy Greenburg</h1>
                 <ul className="header">
@@ -28,7 +28,7 @@ class Main extends Component {
                     <Route path="/projects" component={Projects}/>
                     <Route path="/links" component={Links}/>
                 </div>
-            </HashRouter>
+            </BrowserRouter>
         );
     }
 }
