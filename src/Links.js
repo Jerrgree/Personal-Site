@@ -5,7 +5,7 @@ import linkedin from "./img/linkedin/linkedin_logo_package/LinkedIn [in]/Screen/
 class Links extends Component {
       render() {
             return (
-                <div>
+                <div className="centeredDiv">
                     <h2>Links</h2>
                     <a href="https://github.com/Jerrgree/">
                         <img src = {github} alt="Github"/>

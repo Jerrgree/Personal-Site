@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "material-ui": "^1.0.0-beta.25",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-event-listener": "^0.5.3",
     "react-fontawesome": "^1.6.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
-    "react-vertical-timeline-component": "^2.0.1"
+    "react-vertical-timeline-component": "^2.0.1",
+    "svg-icon": "^0.8.2"
   },
   "scripts": {
     "start": "react-scripts start",

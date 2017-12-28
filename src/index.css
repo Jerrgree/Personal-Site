@@ -38,3 +38,14 @@ ul.header li a:hover {
     color: black;
     background-color: grey;
 }
+
+.contentHeader {
+    text-align:center;
+}
+
+.centeredDiv {
+    margin:auto;
+    width: 50%;
+    text-align:center;
+}
+
